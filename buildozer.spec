@@ -1,0 +1,20 @@
+[app]
+title = تحكم الموتور
+package.name = motor_control
+package.domain = org.motorcontrol
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas,json
+version = 1.0
+requirements = python3,kivy,requests,plyer
+orientation = portrait
+osx.python_version = 3
+osx.kivy_version = 2.1.0
+fullscreen = 0
+android.permissions = INTERNET
+android.arch = arm64-v8a
+android.api = 28
+android.minapi = 21
+android.ndk = 23b
+android.sdk = 30
+android.accept_sdk_license = True
+android.logcat_filters = *:S python:D

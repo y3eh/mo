@@ -1,0 +1,5 @@
+{
+    "esp32_ip": "192.168.1.100",
+    "esp32_port": "80",
+    "connection_timeout": 5
+}
